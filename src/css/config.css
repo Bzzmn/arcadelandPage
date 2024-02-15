@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button{
+    @apply bg-red-500 text-orange-100 block w-max py-4 px-12 rounded-full;
+  }
+}
+
+.grid {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  height: auto;
+  width: 615px;
+  user-select: none;
+  img{
+    border-radius: 10px;
+    user-select: none;
+  }
+}
+
