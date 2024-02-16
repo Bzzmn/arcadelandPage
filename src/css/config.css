@@ -3,8 +3,25 @@
 @tailwind utilities;
 
 @layer components {
+  /* this utility clases are for memory game*/
   .button{
     @apply bg-red-500 text-orange-100 block w-max py-4 px-12 rounded-full;
+  }
+
+  /* this utility clases are for whac-a-mole*/
+  .square{
+    @apply w-[200px] h-[200px] border border-orange-400  bg-orange-100;
+  }
+  .mole {
+    @apply bg-hog;
+  }
+
+  .hole {
+    @apply bg-hole;
+  }
+  
+  .punch {
+    @apply bg-punch;
   }
 }
 
@@ -20,4 +37,3 @@
     user-select: none;
   }
 }
-

@@ -544,6 +544,42 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+/* this utility clases are for memory game*/
+
 .button {
   display: block;
   width: -moz-max-content;
@@ -559,6 +595,30 @@ video {
   color: rgb(255 237 213 / var(--tw-text-opacity));
 }
 
+/* this utility clases are for whac-a-mole*/
+
+.square {
+  height: 200px;
+  width: 200px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(251 146 60 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+}
+
+.mole {
+  background-image: url('../images/whac-a-mole/hog.png');
+}
+
+.hole {
+  background-image: url('../images/whac-a-mole/hole.png');
+}
+
+.punch {
+  background-image: url('../images/whac-a-mole/punch.png');
+}
+
 .flex {
   display: flex;
 }
@@ -567,39 +627,32 @@ video {
   display: grid;
 }
 
-.h-24 {
-  height: 6rem;
+.h-\[600px\] {
+  height: 600px;
 }
 
-.w-full {
-  width: 100%;
+.w-\[600px\] {
+  width: 600px;
 }
 
-.flex-col {
-  flex-direction: column;
+.cursor-hammer-down {
+  cursor: url('../images/whac-a-mole/hammer-down.png'), pointer;
 }
 
-.items-center {
-  align-items: center;
+.cursor-hammer-up {
+  cursor: url('../images/whac-a-mole/hammer-up.png'), pointer;
 }
 
-.justify-center {
-  justify-content: center;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.bg-orange-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+.bg-stars {
+  background-image: url('../images/whac-a-mole/stars.png');
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-orange-100 {
-  --tw-text-opacity: 1;
-  color: rgb(255 237 213 / var(--tw-text-opacity));
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .grid {
@@ -618,4 +671,3 @@ video {
             user-select: none;
   }
 }
-
