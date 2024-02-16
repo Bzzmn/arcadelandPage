@@ -643,6 +643,12 @@ video {
   cursor: url('../images/whac-a-mole/hammer-up.png'), pointer;
 }
 
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
