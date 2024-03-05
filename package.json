@@ -11,9 +11,5 @@
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  },
-  "dependencies": {
-    "sweetalert2": "^11.10.5",
-    "toastify-js": "^1.12.0"
   }
 }

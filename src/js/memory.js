@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
     this.setAttribute('src', cardArray[cardId].img);
     this.removeEventListener('click', flipCard)
     if (cardsChosen.length === 2) {
-      setTimeout(checkForMatch, 200);
+      setTimeout(checkForMatch, 300);
     }
   }
   createBoard();
