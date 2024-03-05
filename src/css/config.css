@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 @layer components {
-  /* this utility clases are for memory game*/
   .button{
-    @apply bg-red-500 text-orange-100 block w-max py-4 px-12 rounded-full;
+    @apply bg-blue-500 text-orange-100 w-max py-4 px-12 rounded-full;
   }
+  /* this utility clases are for memory game*/
+  
 
   /* this utility clases are for whac-a-mole*/
   .square{
     @apply w-[200px] h-[200px] border border-orange-400  bg-orange-100;
   }
+
   .mole {
     @apply bg-hog;
   }
@@ -19,9 +21,15 @@
   .hole {
     @apply bg-hole;
   }
-  
   .punch {
     @apply bg-punch;
+  }
+  /* this utility clases are for breakout*/
+  .breakout-block{
+    @apply w-[100px] h-[20px] bg-blue-600 absolute;
+  }
+  .breakout-grid{
+    @apply w-[600px] h-[300px] border border-black absolute;
   }
 }
 
@@ -36,4 +44,12 @@
     border-radius: 10px;
     user-select: none;
   }
+}
+.main-title {
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.main-body {
+  text-align: center;
 }

@@ -4,12 +4,16 @@
   "description": "simple javascript games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "twLoader": "npx tailwindcss -i ./src/css/config.css -o ./src/css/styles.css --watch"
   },
   "author": "Bzmn_",
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.10.5",
+    "toastify-js": "^1.12.0"
   }
 }

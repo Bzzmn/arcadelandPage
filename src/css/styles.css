@@ -578,15 +578,12 @@ video {
   }
 }
 
-/* this utility clases are for memory game*/
-
 .button {
-  display: block;
   width: -moz-max-content;
   width: max-content;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 3rem;
@@ -594,6 +591,8 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 237 213 / var(--tw-text-opacity));
 }
+
+/* this utility clases are for memory game*/
 
 /* this utility clases are for whac-a-mole*/
 
@@ -617,6 +616,29 @@ video {
 
 .punch {
   background-image: url('../images/whac-a-mole/punch.png');
+}
+
+/* this utility clases are for breakout*/
+
+.breakout-block {
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.breakout-grid {
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -676,4 +698,13 @@ video {
        -moz-user-select: none;
             user-select: none;
   }
+}
+
+.main-title {
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.main-body {
+  text-align: center;
 }
