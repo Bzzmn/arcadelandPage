@@ -13,7 +13,14 @@
   <div>
     <a type="button" class="button" href="./src/pages/memory.html">Memory</a>
     <a type="button" class="button" href="./src/pages/whac-a-mole.html">Whac-a-mole</a>
-    <a type="button" class="button" href="./src/pages/breakout.html">Breakout</a>
   </div>
+  <h2>Estado del Tiempo</h2>
+    <div id="weather">
+        <p id="weather-info">Cargando el clima...</p>
+    </div>
+    <input type="text" id="city" placeholder="Ingresa una ciudad">
+    <button onclick="actualizarClima()">Actualizar Clima</button>
+
+    <script src="./src/js/weather.js"></script>
 </body>
 </html>
